@@ -8,6 +8,7 @@
     --heading-font: "IM Fell French Canon SC";
     --paragraph-font: Lato, Helvetica, sans-serif
 } */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP|Lato');
 :root {
 --primary-color: #A6CFD5;
 --secondary-color: #F59CA9;
@@ -15,7 +16,6 @@
 --accent2-color: #643A71;
 --heading-font: "Noto Sans JP";
 --paragraph-font: Lato, Helvetica, sans-serif;
-
 
 }
 
@@ -41,25 +41,28 @@ h4,
 h5,
 h6 {
     font-family: var(--heading-font);
-    color:
+    color: black;
 }
 
 header {
     padding: 1em;
     text-align: center;
     color: var(--accent2-color);
-    background-color:
+    background-color: var(--primary-color);
 }
 
 header>h1 {
-    color:
+    color:var(--secondary-color);
 }
 
 p {
     font-family: var(--paragraph-font);
-    color: ;
+    color: black ;
     padding: 1em
 }
+p.colored {
+    background-color:var(--primary-color);
+    color: #FFFFFF;
 
 .colors {
     width: 100%;
@@ -94,7 +97,7 @@ p {
 }
 
 nav {
-    background-color: ;
+    background-color:var(--accent2-color);
     line-height: 3em;
     text-align: center;
     font-size: 1.2em
@@ -112,10 +115,10 @@ nav a {
 
 nav a:link,
 nav a:visited {
-    color:
+    color:var(--secondary-color);
 }
 
 nav a:hover {
-    color: ;
-    background-color:
+    color: var(--accent2-color);
+    background-color:var(--accent1-color);
 }
