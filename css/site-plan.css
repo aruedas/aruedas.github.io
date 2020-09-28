@@ -41,7 +41,7 @@ h4,
 h5,
 h6 {
     font-family: var(--heading-font);
-    color: black;
+    color:var(--accent2-color);
 }
 
 header {
@@ -63,7 +63,7 @@ p {
 p.colored {
     background-color:var(--primary-color);
     color: #FFFFFF;
-
+}
 .colors {
     width: 100%;
     min-width: 350px;
