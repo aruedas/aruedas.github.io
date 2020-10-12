@@ -1,0 +1,17 @@
+body { background-color:#A6CFD5; ;
+
+}
+p { background-color: #8B5FBF; 
+    color: rgba(black);
+ }
+ h1{color: #F59CA9;
+
+ }
+ h2{color:#8B5FBF; ;
+
+ }
+ header, main, footer {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
