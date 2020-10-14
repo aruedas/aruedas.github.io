@@ -1,7 +1,32 @@
-body { background-color:#A6CFD5; ;
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP|Lato');
+:root {
+--primary-color: #A6CFD5;
+--secondary-color: #F59CA9;
+--accent1-color: #8B5FBF;
+--accent2-color: #643A71;
+--heading-font: "Noto Sans JP";
+--paragraph-font: Lato, Helvetica, sans-serif;
 
 }
-p { background-color: #8B5FBF; 
+
+html {
+    background-color: var(--primary-color)
+}
+
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 1em
+}
+
+img {
+    max-width: 100%
+
+}
+header{background-color: var(--primary-color)
+}
+p {
     color: rgba(black);
  }
  h1{color: #F59CA9;
@@ -11,7 +36,7 @@ p { background-color: #8B5FBF;
 
  }
  header, main, footer {
-    max-width: 960px;
+    max-width:1024px;
     margin: 0 auto;
   }
 
