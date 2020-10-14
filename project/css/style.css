@@ -28,7 +28,8 @@
         max-width: 900px;
         margin: 0 auto;
         background-color: white;
-        padding: 1em
+        padding: 1em;
+            font-size:16px;
     }
 
     img {
@@ -49,7 +50,7 @@
     }
 
     h1 {
-        font-size:2em;
+        font-size:2rem;
       text-shadow: 2px 2px #A6CFD5;
         color: #F59CA9;
         padding-right: .3em;
@@ -57,6 +58,7 @@
 
     h2 {
         color: #8B5FBF;
+        font-seize:1rem;
         ;
 
     }
@@ -73,7 +75,7 @@
         background-color: var(--nav-background-color);
         line-height: 3em;
         text-align: center;
-        font-size: 1.2em;
+        font-size: 1.2rem;
     }
 
     ul {
